@@ -1,1 +1,2 @@
-https://images.wallpapersden.com/image/download/stranger-things-eleven-fan-artwork_a2ZqamWUmZqaraWkpJRmbmdlrWZlbWU.jpg
+Desafio feito para a #ImersaoDEV da Alura
+Projeto foi construido utilizando: HTML, CSS e JavaScript
