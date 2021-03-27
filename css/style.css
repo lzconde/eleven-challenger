@@ -1,0 +1,82 @@
+:root{  /* Cria uma Variavel e altera todo valor de onde utilizamos essa variavel */
+    --color-first: #421c73;
+    --color-second: #fff;
+    --color-thirty: #c561a9;
+    --color-four: #9447a5;
+
+    --color-dark-first: #95459e;
+    --color-black-second: #000;
+}
+
+body{
+    background-image:url(../assets/background-eleven.jpg) ;
+    
+}
+
+
+section{
+    display: flex;
+    flex-direction: column; /*Estudar sobre*/
+    align-items: center; /*Para alinhar os itens alterei o display para flex*/ 
+    color: var(--color-second);
+    background-color: var(--color-first);
+    border: 6px solid var(--color-dark-first);
+    width: 800px;
+    height: 280px;
+    margin-top: 350px;
+    margin-left: 500px;
+}
+
+h1{
+    font-family: "Press Start 2P", cursive;
+    margin: 10px;
+    margin-bottom: 4px;
+}
+
+h2{
+    font-family: "Poppins";
+    margin:6px;
+    font-size: 20px;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-four);
+    box-shadow: 5px 5px 5px var(--color-black-second);
+    width: 210px;
+    height: 80px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    font-family: "Press Start 2P";
+    font-size: 13px;
+    text-align: center;
+}
+
+input{
+    font-family: "Press Start 2P";
+    
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    color: var(--color-second);
+    font-family: "Press Start 2P";
+    background-color: var(--color-thirty);
+    border-radius: 0;
+    border: none;
+    font-size: 18px;
+    box-shadow: 5px 5px 5px var(--color-black-second);
+    margin-top: 10px;
+    
+}
+
+button:hover{
+    background-color: var(--color-four);
+}
